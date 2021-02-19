@@ -1,0 +1,37 @@
+{
+    "context": "client",
+    "identifier": "com.pa.turnus.uber-rank",
+    "display_name": "Uber Rank Restoration",
+    "description": "Restores the Uber rank title.",
+    "author": "Turnus",
+    "version": "1.1.1",
+    "build": "115529",
+    "date": "2021-02-18",
+    "category": 
+    [
+        "classic", 
+        "titans", 
+        "fix", 
+        "ui"
+    ],
+    "forum": "https://forums.planetaryannihilation.com/threads/client-uber-rank-restoration.73543/",
+    "signature": " ",
+    "icon": "https://raw.githubusercontent.com/cSelbrede/Uber-Rank-Restoration/main/images/icon.png",
+    "github": "https://github.com/cSelbrede/Uber-Rank-Restoration",
+    "scenes":
+    {
+        "start":
+        [
+            "coui://ui/mods/com.pa.turnus.uber-rank/uber_title_override.js"
+        ],
+        "leaderboard":
+        [
+            "coui://ui/mods/com.pa.turnus.uber-rank/leaderboard.js",
+            "coui://ui/mods/com.pa.turnus.uber-rank/uber_title_override.js"
+        ],
+        "game_over":
+        [
+            "coui://ui/mods/com.pa.turnus.uber-rank/uber_title_override.js"
+        ]
+    }
+}
